@@ -1,0 +1,6 @@
+- !user
+  id: alice
+
+- !policy
+  id: myApp
+  owner: !user alice
