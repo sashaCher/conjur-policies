@@ -1,0 +1,4 @@
+- !grant
+  role: !group consumers
+  members:
+  - !host /myApp/myHost

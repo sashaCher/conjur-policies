@@ -1,0 +1,7 @@
+- !user
+  id: bob
+
+- !grant
+  role: !group vaultName/lobName-admins
+  members:
+  - !user bob

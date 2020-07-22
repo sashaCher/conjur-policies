@@ -1,0 +1,4 @@
+- !grant
+  role: !group safeName-admins
+  members:
+  - !user /chris
