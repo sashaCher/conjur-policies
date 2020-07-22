@@ -1,0 +1,3 @@
+- !policy
+  id: delegation
+  owner: !group ../safeName-admins

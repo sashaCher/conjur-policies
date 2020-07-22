@@ -1,0 +1,14 @@
+- !group
+  id: vaultName-admins
+
+- !policy
+  id: vaultName
+  owner: !group vaultName-admins
+
+- !host
+  id: syncHostUser
+
+- !grant
+  role: !group vaultName-admins
+  members:
+  - !host syncHostUser
